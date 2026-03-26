@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!-- tutorial on how to write an xml file https://www.w3schools.com/xml/xml_syntax.asp, also used examples in A4 document as reference-->
+<!-- ERROR 1: root element will be NationalPark instead of NationalParks-->
+<NationalPark>
+	<NationalPark>
+		<Name>Grand Canyon</Name>
+		<PhoneNumbers>
+			<phone ref = "928-638-7496"/>
+			<phone ref = "888-297-2757"/>
+			<phone ref = "866-499-2574"/>
+		</PhoneNumbers>
+		<Address>
+			<Number>8</Number>
+			<Street>S Entrance Road</Street>
+			<City>Grand Canyon</City>
+			<State>AZ</State>
+			<Zip>86023</Zip>
+			<NearestAirport>Flagstaff</NearestAirport>
+		</Address>
+		<Rating>4.9</Rating>
+	</NationalPark>
+	<NationalPark>
+		<Name>Crater Lake National Park</Name>
+		<PhoneNumbers>
+			<phone ref = "541-594-3000"/>
+		</PhoneNumbers>
+		<Address>
+			<Number>7</Number>
+			<Street>100 Rim Village Dr</Street>
+			<City>Crater Lake</City>
+			<State>OR</State>
+			<Zip>97604</Zip>
+			<NearestAirport>Sunriver</NearestAirport>
+		</Address>
+		<Rating>4.9</Rating>
+	</NationalPark>
+	<NationalPark>
+		<!--Glacier National Park-->
+		<Name>Glacier National Park</Name>
+		<PhoneNumbers>
+			<phone ref = "541-594-3000"/>
+		</PhoneNumbers>
+		<Address>
+			<Number>64</Number>
+			<Street>Grinnell Dr</Street>
+			<City>West Glacier</City>
+			<State>MT</State>
+			<Zip>59936</Zip>
+			<NearestAirport>Ryan Field</NearestAirport>
+		</Address>
+		<Rating>4.8</Rating>
+	</NationalPark>
+	<NationalPark>
+		<!--Hot Springs National Park-->
+		<Name>Hot Springs National Park</Name>
+		<PhoneNumbers>
+			<phone ref = "501 620-6715"/>
+		</PhoneNumbers>
+		<Address>
+			<Number>101</Number>
+			<Street>Reserve Street</Street>
+			<City>Hot Springs</City>
+			<State>AR</State>
+			<Zip>71901</Zip>
+			<!--ERROR 2: missing required attribute nearest airport-->
+		</Address>
+		<Rating>4.6</Rating>
+	</NationalPark>
+	<NationalPark>
+		<!--Everglades National Park-->
+		<Name>Everglades National Park</Name>
+		<PhoneNumbers>
+			<phone ref = "305-242-7700"/>
+			<phone ref = "239-695-3311"/>
+		</PhoneNumbers>
+		<Address>
+			<Number>9336</Number>
+			<Street>40001 State Road</Street>
+			<City>Homestead</City>
+			<State>FL</State>
+			<Zip>33034</Zip>
+			<NearestAirport>Ocean Reef Club</NearestAirport>
+		</Address>
+		<Rating>4.6</Rating>
+	</NationalPark>
+	<NationalPark>
+		<!--Olympic National Park-->
+		<Name>Olympic National Park</Name>
+		<PhoneNumbers>
+			<phone ref = "360-565-3130"/>
+		</PhoneNumbers>
+		<Address>
+			<Number>600</Number>
+			<Street>E. Park Avenue</Street>
+			<City>Port Angeles</City>
+			<State>WA</State>
+			<Zip>98362</Zip>
+			<NearestAirport>Bremerton</NearestAirport>
+		</Address>
+	</NationalPark>
+	<NationalPark>
+		<!--Petrified Forest National Park-->
+		<Name>Petrified Forest National Park</Name>
+		<PhoneNumbers>
+			<phone ref = "928-524-6822"/>
+		</PhoneNumbers>
+		<Address>
+			<Number>1</Number>
+			<Street>Park Rd</Street>
+			<City>Concho</City>
+			<State>AZ</State>
+			<Zip>86028</Zip>
+			<NearestAirport>Holbrook</NearestAirport>
+		</Address>
+		<Rating>4.7</Rating>
+	</NationalPark>
+	<NationalPark>
+		<!--Rocky Mountain National Park-->
+		<!--ERROR 5: two names are provided for one of the national parks-->
+		<Name>Rocky Mountain National Park</Name>
+		<Name>Rocky Mountains</Name>
+		<PhoneNumbers>
+			<phone ref = "970-586-1206"/>
+		</PhoneNumbers>
+		<Address>
+			<Number>1000</Number>
+			<Street>US Hwy 36</Street>
+			<City>Estes Park</City>
+			<State>CO</State>
+			<Zip>80517</Zip>
+			<NearestAirport>Denver</NearestAirport>
+		</Address>
+	</NationalPark>
+	<NationalPark>
+		<!--Saguaro National Park-->
+		<Name>Saguaro National Park</Name>
+		<!--ERROR 3: missing phone element-->
+		<Address>
+			<Number>3693</Number>
+			<Street>S Old Spanish Trail</Street>
+			<City>Tucson</City>
+			<State>AZ</State>
+			<Zip>85730</Zip>
+			<NearestAirport>Tucson</NearestAirport>
+		</Address>
+	</NationalPark>
+	<NationalPark>
+		<!--Yellowstone National Park-->
+		<Name>Yellowstone National Park</Name>
+		<PhoneNumbers>
+			<phone ref = "307-344-7381"/>
+			<phone ref = "866-439-7375"/>
+			<phone ref = "307-344-7311"/>
+			<phone ref = "307-344-2160"/>
+			<phone ref = "307-344-2751"/>
+		</PhoneNumbers>
+		<Address>
+			<Number>114</Number>
+			<Street>Albright Ave</Street>
+			<City>Yellowstone</City>
+			<State>WY</State>
+			<Zip>82190</Zip>
+			<NearestAirport>Yellowstone</NearestAirport>
+			<!--ERROR 4: address element is missing a closing tag-->
+		<Rating>4.8</Rating>
+	</NationalPark>
+	<NationalPark>
+		<!--Zion National Park-->
+		<Name>Zion National Park</Name>
+		<PhoneNumbers>
+			<phone ref = "435-772-3256"/>
+		</PhoneNumbers>
+		<Address>
+			<Number>1</Number>
+			<Street>Zion Park Blvd</Street>
+			<City>Springdale</City>
+			<State>UT</State>
+			<Zip>84767</Zip>
+			<NearestAirport>Cedar City</NearestAirport>
+		</Address>
+		<Rating>4.8</Rating>
+	</NationalPark>
+</NationalPark>
