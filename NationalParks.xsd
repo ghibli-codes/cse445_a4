@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="NationalParks"
+    targetNamespace="http://tempuri.org/NationalParks.xsd"
+    elementFormDefault="qualified"
+    xmlns="http://tempuri.org/NationalParks.xsd"
+    xmlns:mstns="http://tempuri.org/NationalParks.xsd"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+>
+
+	<!--tutorial for creating an xsd (xml schema) file https://www.w3schools.com/xml/schema_example.asp-->
+	<!--our root element is NationalParks, it is a complex type since it has an atribute and can contain other elements-->
+	<xs:element name="NationalParks">
+		<xs:complexType>
+			<xs:sequence>
+				<!--need to define the complex element within the root element which is NationalPark, it can occur as many times as author wishes so its set to unbounded-->
+				<xs:element name="NationalPark" maxOccurs="unbounded">
+					<xs:complexType>
+						<xs:sequence>
+							<!--phone number can contain more than one number, phonenumbers is a complex element which contains phone number elements -->
+							<xs:element name="PhoneNumbers">
+								<xs:complexType>
+									<xs:sequence>
+										<!-- must occur at least once but no limit on how many max occurances-->
+										<xs:element name="phonenum" type="xs:string" minOccurs = "1" maxOccurs="unbounded"/>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+							<!-- address is a complex element, so it must be declared differently, source: https://www.w3schools.com/xml/schema_complex.asp-->
+							<xs:element name="Address">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="Number" type="xs:string"/>
+										<xs:element name="Street" type="xs:string"/>
+										<xs:element name="City" type="xs:string"/>
+										<xs:element name="State" type="xs:string"/>
+										<xs:element name="Zip" type="xs:string"/>
+									</xs:sequence>
+									<!--nearest airport is a required attribute so use required -->
+									<xs:attribute name="NearestAirport" type="xs:string" use="required"/>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+						<!--rating is optional, set use to optional-->
+						<xs:attribute name="Rating" type="xs:string" use="optional"/>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+		
+</xs:schema>
