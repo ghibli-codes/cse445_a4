@@ -1,117 +1,106 @@
-﻿<?xml version="1.0" encoding="utf-8" ?> 
+<?xml version="1.0" encoding="utf-8" ?> 
 <!-- tutorial on how to write an xml file https://www.w3schools.com/xml/xml_syntax.asp, also used examples in A4 document as reference-->
 <!-- root element will be National Parks, which is the parent of all other elements-->
 <NationalParks>
 	<!-- the national parks will have 11 children of type national park-->
-	<NationalPark>
+	<!--each national park has the optional attribute of rating, source on how to format attributes in xml https://www.w3schools.com/xml/xml_attributes.asp-->
+	<NationalPark rating = "4.9">
 		<!--the child elements will contain name, phone, and address-->
 		<Name>Grand Canyon</Name>
-		<!-- phone is allowed multiple values, define them using this syntax https://stackoverflow.com/questions/29457518/convention-for-multiple-items-in-an-xml-file-->
+		<!-- phone is allowed multiple values, define them using this syntax  https://stackoverflow.com/questions/27745014/how-to-specify-repeated-elements-in-xsd--->
 		<PhoneNumbers>
-			<phone ref = "928-638-7496"/>
-			<phone ref = "888-297-2757"/>
-			<phone ref = "866-499-2574"/>
+			<phonenum>928-638-7496</phonenum>
+			<phonenum>888-297-2757</phonenum>
+			<phonenum>866-499-2574</phonenum>
 		</PhoneNumbers>
-		<!-- address has the attributes number, street, city, state, zip and nearest airport-->
-		<Address>
+		<!-- address has the elements number, street, city, state, zip and the attribute nearest airport-->
+		<Address NearestAirport= "Flagstaff">
 			<Number>8</Number>
 			<Street>S Entrance Road</Street>
 			<City>Grand Canyon</City>
 			<State>AZ</State>
 			<Zip>86023</Zip>
-			<!-- has the required attr of nearest airport-->
-			<NearestAirport>Flagstaff</NearestAirport>
 		</Address>
-		<!-- has the optional attr of rating-->
-		<Rating>4.9</Rating>
 		</NationalPark>
-	<NationalPark>
+	<NationalPark rating = "4.9">
 		<!--Crater Lake National Park-->
 		<Name>Crater Lake National Park</Name>
 		<PhoneNumbers>
-			<phone ref = "541-594-3000"/>
+			<phonenum>541-594-3000</phonenum>
 		</PhoneNumbers>
-		<Address>
+		<Address NearestAirport= "Sunriver">
 			<Number>7</Number>
 			<Street>100 Rim Village Dr</Street>
 			<City>Crater Lake</City>
 			<State>OR</State>
 			<Zip>97604</Zip>
-			<NearestAirport>Sunriver</NearestAirport>
 		</Address>
-		<Rating>4.9</Rating>
 	</NationalPark>
-	<NationalPark>
+	<NationalPark rating = "4.8">
 		<!--Glacier National Park-->
 		<Name>Glacier National Park</Name>
 		<PhoneNumbers>
-			<phone ref = "541-594-3000"/>
+			<phonenum>541-594-3000</phonenum>
 		</PhoneNumbers>
-		<Address>
+		<Address NearestAirport= "Ryan Field">
 			<Number>64</Number>
 			<Street>Grinnell Dr</Street>
 			<City>West Glacier</City>
 			<State>MT</State>
 			<Zip>59936</Zip>
-			<NearestAirport>Ryan Field</NearestAirport>
 		</Address>
-		<Rating>4.8</Rating>
 	</NationalPark>
-	<NationalPark>
+	<NationalPark rating = "4.6">
 		<!--Hot Springs National Park-->
 		<Name>Hot Springs National Park</Name>
 		<PhoneNumbers>
-			<phone ref = "501 620-6715"/>
+			<phonenum>501-620-6715</phonenum>
 		</PhoneNumbers>
-		<Address>
+		<Address NearestAirport= "Saline County">
 			<Number>101</Number>
 			<Street>Reserve Street</Street>
 			<City>Hot Springs</City>
 			<State>AR</State>
 			<Zip>71901</Zip>
-			<NearestAirport>Saline County</NearestAirport>
 		</Address>
 		<Rating>4.6</Rating>
 	</NationalPark>
-	<NationalPark>
+	<NationalPark rating = "4.6">
 		<!--Everglades National Park-->
 		<Name>Everglades National Park</Name>
 		<PhoneNumbers>
-			<phone ref = "305-242-7700"/>
-			<phone ref = "239-695-3311"/>
+			<phonenum>305-242-7700</phonenum>
+			<phonenum>239-695-3311</phonenum>
 		</PhoneNumbers>
-		<Address>
+		<Address NearestAirport= "Ocean Reef Club">
 			<Number>9336</Number>
 			<Street>40001 State Road</Street>
 			<City>Homestead</City>
 			<State>FL</State>
 			<Zip>33034</Zip>
-			<NearestAirport>Ocean Reef Club</NearestAirport>
 		</Address>
-		<Rating>4.6</Rating>
 	</NationalPark>
 	<NationalPark>
 		<!--Olympic National Park-->
 		<Name>Olympic National Park</Name>
 		<PhoneNumbers>
-			<phone ref = "360-565-3130"/>
+			<phonenum>360-565-3130</phonenum>
 		</PhoneNumbers>
-		<Address>
+		<Address NearestAirport= "Bremerton">
 			<Number>600</Number>
 			<Street>E. Park Avenue</Street>
 			<City>Port Angeles</City>
 			<State>WA</State>
 			<Zip>98362</Zip>
-			<NearestAirport>Bremerton</NearestAirport>
 		</Address>
 	</NationalPark>
-	<NationalPark>
+	<NationalPark rating = "4.7">
 		<!--Petrified Forest National Park-->
 		<Name>Petrified Forest National Park</Name>
 		<PhoneNumbers>
-			<phone ref = "928-524-6822"/>
+			<phonenum>928-524-6822</phonenum>
 		</PhoneNumbers>
-		<Address>
+		<Address NearestAirport= "Holbrook">
 			<Number>1</Number>
 			<Street>Park Rd</Street>
 			<City>Concho</City>
@@ -119,74 +108,67 @@
 			<Zip>86028</Zip>
 			<NearestAirport>Holbrook</NearestAirport>
 		</Address>
-		<Rating>4.7</Rating>
 	</NationalPark>
 	<NationalPark>
 		<!--Rocky Mountain National Park-->
 		<Name>Rocky Mountain National Park</Name>
 		<PhoneNumbers>
-			<phone ref = "970-586-1206"/>
+			<phonenum>970-586-1206</phonenum>
 		</PhoneNumbers>
-		<Address>
+		<Address NearestAirport= "Denver">
 			<Number>1000</Number>
 			<Street>US Hwy 36</Street>
 			<City>Estes Park</City>
 			<State>CO</State>
 			<Zip>80517</Zip>
-			<NearestAirport>Denver</NearestAirport>
 		</Address>
 	</NationalPark>
 	<NationalPark>
 		<!--Saguaro National Park-->
 		<Name>Saguaro National Park</Name>
 		<PhoneNumbers>
-			<phone ref = "520-733-5153"/>
-			<phon ref = "520-733-5100"/>
-			<phon ref = "520-733-5158"/>
+			<phonenum>520-733-5153</phonenum>
+			<phonenum>520-733-5100</phonenum>
+			<phonenum>520-733-5158</phonenum>
 		</PhoneNumbers>
-		<Address>
+		<Address NearestAirport= "Tucson">
 			<Number>3693</Number>
 			<Street>S Old Spanish Trail</Street>
 			<City>Tucson</City>
 			<State>AZ</State>
 			<Zip>85730</Zip>
-			<NearestAirport>Tucson</NearestAirport>
 		</Address>
 	</NationalPark>
-	<NationalPark>
+	<NationalPark rating = "4.8">
 		<!--Yellowstone National Park-->
 		<Name>Yellowstone National Park</Name>
 		<PhoneNumbers>
-			<phone ref = "307-344-7381"/>
-			<phone ref = "866-439-7375"/>
-			<phone ref = "307-344-7311"/>
-			<phone ref = "307-344-2160"/>
-			<phone ref = "307-344-2751"/>
+			<phonenum>307-344-7381</phonenum>
+			<phonenum>866-439-7375</phonenum>
+			<phonenum>307-344-7311</phonenum>
+			<phonenum>307-344-2160</phonenum>
+			<phonenum>307-344-2751</phonenum>
 		</PhoneNumbers>
-		<Address>
+		<Address NearestAirport= "Yellowstone">
 			<Number>114</Number>
 			<Street>Albright Ave</Street>
 			<City>Yellowstone</City>
 			<State>WY</State>
 			<Zip>82190</Zip>
-			<NearestAirport>Yellowstone</NearestAirport>
 		</Address>
-		<Rating>4.8</Rating>
 	</NationalPark>
-	<NationalPark>
+	<NationalPark rating = "4.8">
 		<!--Zion National Park-->
 		<Name>Zion National Park</Name>
 		<PhoneNumbers>
-			<phone ref = "435-772-3256"/>
+			<phonenum>435-772-3256</phonenum>
 		</PhoneNumbers>
-		<Address>
+		<Address NearestAirport= "Cedar City">
 			<Number>1</Number>
 			<Street>Zion Park Blvd</Street>
 			<City>Springdale</City>
 			<State>UT</State>
 			<Zip>84767</Zip>
-			<NearestAirport>Cedar City</NearestAirport>
 		</Address>
-		<Rating>4.8</Rating>
 	</NationalPark>
 	</NationalParks>
