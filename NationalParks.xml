@@ -7,7 +7,7 @@
 	<NationalPark rating = "4.9">
 		<!--the child elements will contain name, phone, and address-->
 		<Name>Grand Canyon</Name>
-		<!-- phone is allowed multiple values, define them using this syntax  https://stackoverflow.com/questions/27745014/how-to-specify-repeated-elements-in-xsd--->
+		<!-- phone is allowed multiple values, define them using this syntax  https://stackoverflow.com/questions/27745014/how-to-specify-repeated-elements-in-xsd -->
 		<PhoneNumbers>
 			<phonenum>928-638-7496</phonenum>
 			<phonenum>888-297-2757</phonenum>
