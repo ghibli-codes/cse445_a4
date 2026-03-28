@@ -2,8 +2,9 @@
 <xs:schema id="NationalParks"
     targetNamespace="https://ghibli-codes.github.io/cse445_a4/NationalParks.xsd"
     elementFormDefault="qualified"
-    xmlns="http://tempuri.org/NationalParks.xsd"
-    xmlns:mstns="http://tempuri.org/NationalParks.xsd"
+    attributeFormDefault="unqualified"
+    xmlns="https://ghibli-codes.github.io/cse445_a4/NationalParks.xsd"
+    xmlns:mstns="https://ghibli-codes.github.io/cse445_a4/NationalParks.xsd"
     xmlns:xs="http://www.w3.org/2001/XMLSchema"
 >
 
