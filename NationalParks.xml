@@ -8,11 +8,9 @@
 		<!--the child elements will contain name, phone, and address-->
 		<Name>Grand Canyon</Name>
 		<!-- phone is allowed multiple values, define them using this syntax  https://stackoverflow.com/questions/27745014/how-to-specify-repeated-elements-in-xsd -->
-		<PhoneNumbers>
-			<phonenum>928-638-7496</phonenum>
-			<phonenum>888-297-2757</phonenum>
-			<phonenum>866-499-2574</phonenum>
-		</PhoneNumbers>
+		<PhoneNumbers>928-638-7496</PhoneNumbers>
+		<PhoneNumbers>888-297-2757</PhoneNumbers>
+		<PhoneNumbers>866-499-2574</PhoneNumbers>
 		<!-- address has the elements number, street, city, state, zip and the attribute nearest airport-->
 		<Address NearestAirport= "Flagstaff">
 			<Number>8</Number>
@@ -25,9 +23,7 @@
 	<NationalPark rating = "4.9">
 		<!--Crater Lake National Park-->
 		<Name>Crater Lake National Park</Name>
-		<PhoneNumbers>
-			<phonenum>541-594-3000</phonenum>
-		</PhoneNumbers>
+		<PhoneNumbers>541-594-3000</PhoneNumbers>
 		<Address NearestAirport= "Sunriver">
 			<Number>7</Number>
 			<Street>100 Rim Village Dr</Street>
@@ -39,9 +35,7 @@
 	<NationalPark rating = "4.8">
 		<!--Glacier National Park-->
 		<Name>Glacier National Park</Name>
-		<PhoneNumbers>
-			<phonenum>541-594-3000</phonenum>
-		</PhoneNumbers>
+		<PhoneNumbers>406-888-7800</PhoneNumbers>
 		<Address NearestAirport= "Ryan Field">
 			<Number>64</Number>
 			<Street>Grinnell Dr</Street>
@@ -53,9 +47,7 @@
 	<NationalPark rating = "4.6">
 		<!--Hot Springs National Park-->
 		<Name>Hot Springs National Park</Name>
-		<PhoneNumbers>
-			<phonenum>501-620-6715</phonenum>
-		</PhoneNumbers>
+		<PhoneNumbers>501-620-6715</PhoneNumbers>
 		<Address NearestAirport= "Saline County">
 			<Number>101</Number>
 			<Street>Reserve Street</Street>
@@ -68,10 +60,8 @@
 	<NationalPark rating = "4.6">
 		<!--Everglades National Park-->
 		<Name>Everglades National Park</Name>
-		<PhoneNumbers>
-			<phonenum>305-242-7700</phonenum>
-			<phonenum>239-695-3311</phonenum>
-		</PhoneNumbers>
+		<PhoneNumbers>305-242-7700</PhoneNumbers>
+		<PhoneNumbers>239-695-3311</PhoneNumbers>
 		<Address NearestAirport= "Ocean Reef Club">
 			<Number>9336</Number>
 			<Street>40001 State Road</Street>
@@ -83,9 +73,7 @@
 	<NationalPark>
 		<!--Olympic National Park-->
 		<Name>Olympic National Park</Name>
-		<PhoneNumbers>
-			<phonenum>360-565-3130</phonenum>
-		</PhoneNumbers>
+		<PhoneNumbers>360-565-3130</PhoneNumbers>
 		<Address NearestAirport= "Bremerton">
 			<Number>600</Number>
 			<Street>E. Park Avenue</Street>
@@ -97,9 +85,7 @@
 	<NationalPark rating = "4.7">
 		<!--Petrified Forest National Park-->
 		<Name>Petrified Forest National Park</Name>
-		<PhoneNumbers>
-			<phonenum>928-524-6822</phonenum>
-		</PhoneNumbers>
+		<PhoneNumbers>928-524-6822</PhoneNumbers>
 		<Address NearestAirport= "Holbrook">
 			<Number>1</Number>
 			<Street>Park Rd</Street>
@@ -112,9 +98,7 @@
 	<NationalPark>
 		<!--Rocky Mountain National Park-->
 		<Name>Rocky Mountain National Park</Name>
-		<PhoneNumbers>
-			<phonenum>970-586-1206</phonenum>
-		</PhoneNumbers>
+		<PhoneNumbers>970-586-1206</PhoneNumbers>
 		<Address NearestAirport= "Denver">
 			<Number>1000</Number>
 			<Street>US Hwy 36</Street>
@@ -126,11 +110,9 @@
 	<NationalPark>
 		<!--Saguaro National Park-->
 		<Name>Saguaro National Park</Name>
-		<PhoneNumbers>
-			<phonenum>520-733-5153</phonenum>
-			<phonenum>520-733-5100</phonenum>
-			<phonenum>520-733-5158</phonenum>
-		</PhoneNumbers>
+		<PhoneNumbers>520-733-5153</PhoneNumbers>
+		<PhoneNumbers>520-733-5100</PhoneNumbers>
+		<PhoneNumbers>520-733-5158</PhoneNumbers>
 		<Address NearestAirport= "Tucson">
 			<Number>3693</Number>
 			<Street>S Old Spanish Trail</Street>
@@ -142,13 +124,11 @@
 	<NationalPark rating = "4.8">
 		<!--Yellowstone National Park-->
 		<Name>Yellowstone National Park</Name>
-		<PhoneNumbers>
-			<phonenum>307-344-7381</phonenum>
-			<phonenum>866-439-7375</phonenum>
-			<phonenum>307-344-7311</phonenum>
-			<phonenum>307-344-2160</phonenum>
-			<phonenum>307-344-2751</phonenum>
-		</PhoneNumbers>
+		<PhoneNumbers>307-344-7381</PhoneNumbers>
+		<PhoneNumbers>866-439-7375</PhoneNumbers>
+		<PhoneNumbers>307-344-7311</PhoneNumbers>
+		<PhoneNumbers>307-344-2160</PhoneNumbers>
+		<PhoneNumbers>307-344-2751</PhoneNumbers>
 		<Address NearestAirport= "Yellowstone">
 			<Number>114</Number>
 			<Street>Albright Ave</Street>
@@ -160,9 +140,7 @@
 	<NationalPark rating = "4.8">
 		<!--Zion National Park-->
 		<Name>Zion National Park</Name>
-		<PhoneNumbers>
-			<phonenum>435-772-3256</phonenum>
-		</PhoneNumbers>
+		<PhoneNumbers>435-772-3256</PhoneNumbers>
 		<Address NearestAirport= "Cedar City">
 			<Number>1</Number>
 			<Street>Zion Park Blvd</Street>
