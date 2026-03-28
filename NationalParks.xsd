@@ -17,14 +17,8 @@
 				<xs:element name="NationalPark" maxOccurs="unbounded">
 					<xs:complexType>
 						<xs:sequence>
-							<!--phone number can contain more than one number, phonenumbers is a complex element which contains phone number elements -->
-							<xs:element name="PhoneNumbers">
-								<xs:complexType>
-									<xs:sequence>
-										<!-- must occur at least once but no limit on how many max occurances-->
-										<xs:element name="phonenum" type="xs:string" minOccurs = "1" maxOccurs="unbounded"/>
-									</xs:sequence>
-								</xs:complexType>
+							<!--Phone number can contain more than one element -->
+							<xs:element name="Phone" type="xs:string" minOccurs="1" maxOccurs="unbounded">
 							</xs:element>
 							<!-- address is a complex element, so it must be declared differently, source: https://www.w3schools.com/xml/schema_complex.asp-->
 							<xs:element name="Address">
