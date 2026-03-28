@@ -18,8 +18,7 @@
 					<xs:complexType>
 						<xs:sequence>
 							<!--Phone number can contain more than one element -->
-							<xs:element name="Phone" type="xs:string" minOccurs="1" maxOccurs="unbounded">
-							</xs:element>
+							<xs:element name="Phone" type="xs:string" minOccurs="1" maxOccurs="unbounded"/>
 							<!-- address is a complex element, so it must be declared differently, source: https://www.w3schools.com/xml/schema_complex.asp-->
 							<xs:element name="Address">
 								<xs:complexType>
