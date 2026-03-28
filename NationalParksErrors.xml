@@ -4,9 +4,9 @@
 <NationalPark  xmlns="https://ghibli-codes.github.io/cse445_a4/NationalParksErrors.xml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ghibli-codes.github.io/cse445_a4/ NationalParks.xsd">
 	<NationalPark rating = "4.9">
 		<Name>Grand Canyon</Name>
-		<PhoneNumbers>928-638-7496</PhoneNumbers>
-		<PhoneNumbers>888-297-2757</PhoneNumbers>
-		<PhoneNumbers>866-499-2574</PhoneNumbers>
+		<Phone>928-638-7496</Phone>
+		<Phone>888-297-2757</Phone>
+		<Phone>866-499-2574</Phone>
 		<Address NearestAirport= "Flagstaff">
 			<Number>8</Number>
 			<Street>S Entrance Road</Street>
@@ -17,7 +17,7 @@
 	</NationalPark>
 	<NationalPark rating = "4.9">
 		<Name>Crater Lake National Park</Name>
-		<PhoneNumbers>541-594-3000</PhoneNumbers>
+		<Phone>541-594-3000</Phone>
 		<Address NearestAirport= "Sunriver">
 			<Number>7</Number>
 			<Street>100 Rim Village Dr</Street>
@@ -29,7 +29,7 @@
 	<NationalPark rating = "4.8">
 		<!--Glacier National Park-->
 		<Name>Glacier National Park</Name>
-		<PhoneNumbers>406-888-7800</PhoneNumbers>
+		<Phone>406-888-7800</Phone>
 		<Address NearestAirport= "Ryan Field">
 			<Number>64</Number>
 			<Street>Grinnell Dr</Street>
@@ -41,7 +41,7 @@
 	<NationalPark rating = "4.6">
 		<!--Hot Springs National Park-->
 		<Name>Hot Springs National Park</Name>
-		<PhoneNumbers>501-620-6715</PhoneNumbers>
+		<Phone>501-620-6715</Phone>
 		<!--ERROR 2: missing required attribute nearest airport-->
 		<Address>
 			<Number>101</Number>
@@ -55,8 +55,8 @@
 	<NationalPark rating = "4.6">
 		<!--Everglades National Park-->
 		<Name>Everglades National Park</Name>
-		<PhoneNumbers>305-242-7700</PhoneNumbers>
-        <PhoneNumbers>239-695-3311</PhoneNumbers>
+		<Phone>305-242-7700</Phone>
+        <Phone>239-695-3311</Phone>
 		<Address NearestAirport= "Ocean Reef Club">
 			<Number>9336</Number>
 			<Street>40001 State Road</Street>
@@ -68,7 +68,7 @@
 	<NationalPark>
 		<!--Olympic National Park-->
 		<Name>Olympic National Park</Name>
-		<PhoneNumbers>360-565-3130</PhoneNumbers>
+		<Phone>360-565-3130</Phone>
 		<Address NearestAirport= "Bremerton">
 			<Number>600</Number>
 			<Street>E. Park Avenue</Street>
@@ -80,7 +80,7 @@
 	<NationalPark rating = "4.7">
 		<!--Petrified Forest National Park-->
 		<Name>Petrified Forest National Park</Name>
-		<PhoneNumbers>928-524-6822</PhoneNumbers>
+		<Phone>928-524-6822</Phone>
 		<Address NearestAirport= "Holbrook">
 			<Number>1</Number>
 			<Street>Park Rd</Street>
@@ -94,7 +94,7 @@
 		<!--ERROR 5: two names are provided for one of the national parks-->
 		<Name>Rocky Mountain National Park</Name>
 		<Name>Rocky Mountains</Name>
-		<PhoneNumbers>970-586-1206</PhoneNumbers>
+		<Phone>970-586-1206</Phone>
 		<Address NearestAirport= "Denver">
 			<Number>1000</Number>
 			<Street>US Hwy 36</Street>
@@ -118,11 +118,11 @@
 	<NationalPark rating = "4.8">
 		<!--Yellowstone National Park-->
 		<Name>Yellowstone National Park</Name>
-		<PhoneNumbers>307-344-7381</PhoneNumbers>
-		<PhoneNumbers>866-439-7375</PhoneNumbers>
-		<PhoneNumbers>307-344-7311</PhoneNumbers>
-		<PhoneNumbers>307-344-2160</PhoneNumbers>
-		<PhoneNumbers>307-344-2751</PhoneNumbers>
+		<Phone>307-344-7381</Phone>
+		<Phone>866-439-7375</Phone>
+		<Phone>307-344-7311</Phone>
+		<Phone>307-344-2160</Phone>
+		<Phone>307-344-2751</Phone>
 		<Address NearestAirport= "Yellowstone">
 			<Number>114</Number>
 			<Street>Albright Ave</Street>
@@ -135,7 +135,7 @@
 	<NationalPark rating = "4.8">
 		<!--Zion National Park-->
 		<Name>Zion National Park</Name>
-		<PhoneNumbers>435-772-3256</PhoneNumbers>
+		<Phone>435-772-3256</Phone>
 		<Address NearestAirport= "Cedar City">
 			<Number>1</Number>
 			<Street>Zion Park Blvd</Street>
