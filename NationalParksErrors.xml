@@ -1,151 +1,153 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?> 
 <!-- tutorial on how to write an xml file https://www.w3schools.com/xml/xml_syntax.asp, also used examples in A4 document as reference-->
-<!-- ERROR 1: root element will be NationalPark instead of NationalParks-->
-<NationalPark  xmlns="https://ghibli-codes.github.io/cse445_a4/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ghibli-codes.github.io/cse445_a4/ NationalParks.xsd">
-	<NationalPark rating = "4.9">
-	<!--the child elements will contain name, phone, and address-->
-	<Name>Grand Canyon</Name>
-	<!-- phone is allowed multiple values, define them using this syntax  https://stackoverflow.com/questions/27745014/how-to-specify-repeated-elements-in-xsd -->
-	<PhoneNumbers>928-638-7496</PhoneNumbers>
-	<PhoneNumbers>888-297-2757</PhoneNumbers>
-	<PhoneNumbers>866-499-2574</PhoneNumbers>
-	<!-- address has the elements number, street, city, state, zip and the attribute nearest airport-->
-	<!--ERROR 2 missing required attr-->
-	<Address>
-		<Number>8</Number>
-		<Street>S Entrance Road</Street>
-		<City>Grand Canyon</City>
-		<State>AZ</State>
-		<Zip>86023</Zip>
-	</Address>
-</NationalPark>
-<NationalPark Rating = "4.9">
-	<!--Crater Lake National Park-->
-	<Name>Crater Lake National Park</Name>
-	<PhoneNumbers>541-594-3000</PhoneNumbers>
-	<Address NearestAirport= "Sunriver">
-		<Number>7</Number>
-		<Street>100 Rim Village Dr</Street>
-		<City>Crater Lake</City>
-		<State>OR</State>
-		<Zip>97604</Zip>
-	</Address>
-</NationalPark>
-<NationalPark Rating = "4.8">
-	<!--Glacier National Park-->
-	<Name>Glacier National Park</Name>
-	<!--ERROR 3 phone element is missing-->
-	<Address NearestAirport= "Ryan Field">
-		<Number>64</Number>
-		<Street>Grinnell Dr</Street>
-		<City>West Glacier</City>
-		<State>MT</State>
-		<Zip>59936</Zip>
-	</Address>
-</NationalPark>
-<NationalPark Rating = "4.6">
-	<!--Hot Springs National Park-->
-	<Name>Hot Springs National Park</Name>
-	<PhoneNumbers>501-620-6715</PhoneNumbers>
-	<Address NearestAirport= "Saline County">
-		<Number>101</Number>
-		<Street>Reserve Street</Street>
-		<City>Hot Springs</City>
-		<State>AR</State>
-		<Zip>71901</Zip>
-	</Address>
-</NationalPark>
-<NationalPark Rating = "4.6">
-	<!--Everglades National Park-->
-	<Name>Everglades National Park</Name>
-	<PhoneNumbers>305-242-7700</PhoneNumbers>
-	<PhoneNumbers>239-695-3311</PhoneNumbers>
-	<Address NearestAirport= "Ocean Reef Club">
-		<Number>9336</Number>
-		<Street>40001 State Road</Street>
-		<City>Homestead</City>
-		<State>FL</State>
-		<Zip>33034</Zip>
-	<!--ERROR 4 an address element has no closing tag-->
-</NationalPark>
-<NationalPark>
-	<!--Olympic National Park-->
-	<Name>Olympic National Park</Name>
-	<PhoneNumbers>360-565-3130</PhoneNumbers>
-	<Address NearestAirport= "Bremerton">
-		<Number>600</Number>
-		<Street>E. Park Avenue</Street>
-		<City>Port Angeles</City>
-		<State>WA</State>
-		<Zip>98362</Zip>
-	</Address>
-</NationalPark>
-<NationalPark Rating = "4.7">
-	<!--Petrified Forest National Park-->
-	<!-- ERROR 5 two names are provided-->
-	<Name>Petrified Forest National Park</Name>
-	<Name>Petrified Forest</Name>
-	<PhoneNumbers>928-524-6822</PhoneNumbers>
-	<Address NearestAirport= "Holbrook">
-		<Number>1</Number>
-		<Street>Park Rd</Street>
-		<City>Concho</City>
-		<State>AZ</State>
-		<Zip>86028</Zip>
-	</Address>
-</NationalPark>
-<NationalPark>
-	<!--Rocky Mountain National Park-->
-	<Name>Rocky Mountain National Park</Name>
-	<PhoneNumbers>970-586-1206</PhoneNumbers>
-	<Address NearestAirport= "Denver">
-		<Number>1000</Number>
-		<Street>US Hwy 36</Street>
-		<City>Estes Park</City>
-		<State>CO</State>
-		<Zip>80517</Zip>
-	</Address>
-</NationalPark>
-<NationalPark>
-	<!--Saguaro National Park-->
-	<Name>Saguaro National Park</Name>
-	<PhoneNumbers>520-733-5153</PhoneNumbers>
-	<PhoneNumbers>520-733-5100</PhoneNumbers>
-	<PhoneNumbers>520-733-5158</PhoneNumbers>
-	<Address NearestAirport= "Tucson">
-		<Number>3693</Number>
-		<Street>S Old Spanish Trail</Street>
-		<City>Tucson</City>
-		<State>AZ</State>
-		<Zip>85730</Zip>
-	</Address>
-</NationalPark>
-<NationalPark Rating = "4.8">
-	<!--Yellowstone National Park-->
-	<Name>Yellowstone National Park</Name>
-	<PhoneNumbers>307-344-7381</PhoneNumbers>
-	<PhoneNumbers>866-439-7375</PhoneNumbers>
-	<PhoneNumbers>307-344-7311</PhoneNumbers>
-	<PhoneNumbers>307-344-2160</PhoneNumbers>
-	<PhoneNumbers>307-344-2751</PhoneNumbers>
-	<Address NearestAirport= "Yellowstone">
-		<Number>114</Number>
-		<Street>Albright Ave</Street>
-		<City>Yellowstone</City>
-		<State>WY</State>
-		<Zip>82190</Zip>
-	</Address>
-</NationalPark>
-<NationalPark Rating = "4.8">
-	<!--Zion National Park-->
-	<Name>Zion National Park</Name>
-	<PhoneNumbers>435-772-3256</PhoneNumbers>
-	<Address NearestAirport= "Cedar City">
-		<Number>1</Number>
-		<Street>Zion Park Blvd</Street>
-		<City>Springdale</City>
-		<State>UT</State>
-		<Zip>84767</Zip>
-	</Address>
-</NationalPark>
-</NationalPark>
+<!-- ERROR 1: root element is NationalPark -->
+<NationalPark xmlns="https://ghibli-codes.github.io/cse445_a4/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ghibli-codes.github.io/cse445_a4/ NationalParks.xsd">
+	<!-- the national parks will have 11 children of type national park-->
+	<!--each national park has the optional attribute of rating, source on how to format attributes in xml https://www.w3schools.com/xml/xml_attributes.asp-->
+	<NationalPark Rating = "4.9">
+		<!--the child elements will contain name, phone, and address-->
+		<Name>Grand Canyon</Name>
+		<!-- Phone is allowed multiple elements-->
+		<Phone>928-638-7496</Phone>
+		<Phone>888-297-2757</Phone>
+		<Phone>866-499-2574</Phone>
+		<!-- address has the elements number, street, city, state, zip and the attribute nearest airport-->
+		<Address NearestAirport= "Flagstaff">
+			<Number>8</Number>
+			<Street>S Entrance Road</Street>
+			<City>Grand Canyon</City>
+			<State>AZ</State>
+			<Zip>86023</Zip>
+		</Address>
+		</NationalPark>
+	<NationalPark Rating = "4.9">
+		<!--Crater Lake National Park-->
+		<Name>Crater Lake National Park</Name>
+		<Phone>541-594-3000</Phone>
+		<!--ERROR 2: missing nearest airport-->
+		<Address>
+			<Number>7</Number>
+			<Street>100 Rim Village Dr</Street>
+			<City>Crater Lake</City>
+			<State>OR</State>
+			<Zip>97604</Zip>
+		</Address>
+	</NationalPark>
+	<NationalPark Rating = "4.8">
+		<!--Glacier National Park-->
+		<Name>Glacier National Park</Name>
+		<!--ERROR 3: missing phone element-->
+		<Address NearestAirport= "Ryan Field">
+			<Number>64</Number>
+			<Street>Grinnell Dr</Street>
+			<City>West Glacier</City>
+			<State>MT</State>
+			<Zip>59936</Zip>
+		</Address>
+	</NationalPark>
+	<NationalPark Rating = "4.6">
+		<!--Hot Springs National Park-->
+		<Name>Hot Springs National Park</Name>
+		<Phone>501-620-6715</Phone>
+		<Address NearestAirport= "Saline County">
+			<Number>101</Number>
+			<Street>Reserve Street</Street>
+			<City>Hot Springs</City>
+			<State>AR</State>
+			<Zip>71901</Zip>
+		</Address>
+	</NationalPark>
+	<NationalPark Rating = "4.6">
+		<!--Everglades National Park-->
+		<Name>Everglades National Park</Name>
+		<Phone>305-242-7700</Phone>
+		<Phone>239-695-3311</Phone>
+		<Address NearestAirport= "Ocean Reef Club">
+			<Number>9336</Number>
+			<Street>40001 State Road</Street>
+			<City>Homestead</City>
+			<State>FL</State>
+			<Zip>33034</Zip>
+		</Address>
+	</NationalPark>
+	<NationalPark>
+		<!--Olympic National Park-->
+		<Name>Olympic National Park</Name>
+		<Phone>360-565-3130</Phone>
+		<Address NearestAirport= "Bremerton">
+			<Number>600</Number>
+			<Street>E. Park Avenue</Street>
+			<City>Port Angeles</City>
+			<State>WA</State>
+			<Zip>98362</Zip>
+		</Address>
+	</NationalPark>
+	<NationalPark Rating = "4.7">
+		<!--Petrified Forest National Park-->
+		<!--ERROR 6: two names are provided for the national park-->
+		<Name>Petrified Forest National Park</Name>
+		<Name>Petrified Forest </Name>
+		<Phone>928-524-6822</Phone>
+		<Address NearestAirport= "Holbrook">
+			<Number>1</Number>
+			<Street>Park Rd</Street>
+			<City>Concho</City>
+			<State>AZ</State>
+			<Zip>86028</Zip>
+		</Address>
+	</NationalPark>
+	<NationalPark>
+		<!--Rocky Mountain National Park-->
+		<Name>Rocky Mountain National Park</Name>
+		<Phone>970-586-1206</Phone>
+		<Address NearestAirport= "Denver">
+			<Number>1000</Number>
+			<Street>US Hwy 36</Street>
+			<City>Estes Park</City>
+			<State>CO</State>
+			<Zip>80517</Zip>
+		</Address>
+	</NationalPark>
+	<NationalPark>
+		<!--Saguaro National Park-->
+		<Name>Saguaro National Park</Name>
+		<Phone>520-733-5153</Phone>
+		<Phone>520-733-5100</Phone>
+		<Phone>520-733-5158</Phone>
+		<Address NearestAirport= "Tucson">
+			<Number>3693</Number>
+			<Street>S Old Spanish Trail</Street>
+			<City>Tucson</City>
+			<State>AZ</State>
+			<Zip>85730</Zip>
+		<!--ERROR 5: missing closing address tag-->
+	</NationalPark>
+	<NationalPark Rating = "4.8">
+		<!--Yellowstone National Park-->
+		<Name>Yellowstone National Park</Name>
+		<Phone>307-344-7381</Phone>
+		<Phone>866-439-7375</Phone>
+		<Phone>307-344-7311</Phone>
+		<Phone>307-344-2160</Phone>
+		<Phone>307-344-2751</Phone>
+		<Address NearestAirport= "Yellowstone">
+			<Number>114</Number>
+			<Street>Albright Ave</Street>
+			<City>Yellowstone</City>
+			<State>WY</State>
+			<Zip>82190</Zip>
+		</Address>
+	</NationalPark>
+	<NationalPark Rating = "4.8">
+		<!--Zion National Park-->
+		<Name>Zion National Park</Name>
+		<Phone>435-772-3256</Phone>
+		<Address NearestAirport= "Cedar City">
+			<Number>1</Number>
+			<Street>Zion Park Blvd</Street>
+			<City>Springdale</City>
+			<State>UT</State>
+			<Zip>84767</Zip>
+		</Address>
+	</NationalPark>
+	</NationalPark>
