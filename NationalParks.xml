@@ -7,7 +7,7 @@
 	<NationalPark Rating = "4.9">
 		<!--the child elements will contain name, phone, and address-->
 		<Name>Grand Canyon</Name>
-		<!-- Phone is allowed multiple elements-->
+		<!-- phone is allowed multiple elements -->
 		<Phone>928-638-7496</Phone>
 		<Phone>888-297-2757</Phone>
 		<Phone>866-499-2574</Phone>
@@ -145,4 +145,4 @@
 			<Zip>84767</Zip>
 		</Address>
 	</NationalPark>
-	</NationalParks>
+</NationalParks>
