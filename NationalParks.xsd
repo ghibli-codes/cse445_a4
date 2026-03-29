@@ -1,6 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<xs:schema id="NationalParks"
-   xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="https://ghibli-codes.github.io/cse445_a4/" targetNamespace="https://ghibli-codes.github.io/cse445_a4/" elementFormDefault="qualified" attributeFormDefault="unqualified"
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="https://ghibli-codes.github.io/cse445_a4/" targetNamespace="https://ghibli-codes.github.io/cse445_a4/" elementFormDefault="qualified" attributeFormDefault="unqualified"
 >
 
 	<!--tutorial for creating an xsd (xml schema) file https://www.w3schools.com/xml/schema_example.asp-->
