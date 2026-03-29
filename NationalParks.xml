@@ -55,7 +55,6 @@
 			<State>AR</State>
 			<Zip>71901</Zip>
 		</Address>
-		<Rating>4.6</Rating>
 	</NationalPark>
 	<NationalPark Rating = "4.6">
 		<!--Everglades National Park-->
@@ -92,7 +91,6 @@
 			<City>Concho</City>
 			<State>AZ</State>
 			<Zip>86028</Zip>
-			<NearestAirport>Holbrook</NearestAirport>
 		</Address>
 	</NationalPark>
 	<NationalPark>
