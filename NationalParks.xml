@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?> 
 <!-- tutorial on how to write an xml file https://www.w3schools.com/xml/xml_syntax.asp, also used examples in A4 document as reference-->
 <!-- root element will be National Parks, which is the parent of all other elements-->
-<NationalParks xmlns="https://ghibli-codes.github.io/cse445_a4/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ghibli-codes.github.io/cse445_a4/ NationalParks.xsd">
+<NationalParks xmlns="https://ghibli-codes.github.io/cse445_a4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ghibli-codes.github.io/cse445_a4/ NationalParks.xsd">
 	<!-- the national parks will have 11 children of type national park-->
 	<!--each national park has the optional attribute of rating, source on how to format attributes in xml https://www.w3schools.com/xml/xml_attributes.asp-->
 	<NationalPark rating = "4.9">
