@@ -19,7 +19,7 @@
 		<Zip>86023</Zip>
 	</Address>
 </NationalPark>
-<NationalPark rating = "4.9">
+<NationalPark Rating = "4.9">
 	<!--Crater Lake National Park-->
 	<Name>Crater Lake National Park</Name>
 	<PhoneNumbers>541-594-3000</PhoneNumbers>
@@ -31,7 +31,7 @@
 		<Zip>97604</Zip>
 	</Address>
 </NationalPark>
-<NationalPark rating = "4.8">
+<NationalPark Rating = "4.8">
 	<!--Glacier National Park-->
 	<Name>Glacier National Park</Name>
 	<!--ERROR 3 phone element is missing-->
@@ -43,7 +43,7 @@
 		<Zip>59936</Zip>
 	</Address>
 </NationalPark>
-<NationalPark rating = "4.6">
+<NationalPark Rating = "4.6">
 	<!--Hot Springs National Park-->
 	<Name>Hot Springs National Park</Name>
 	<PhoneNumbers>501-620-6715</PhoneNumbers>
@@ -54,9 +54,8 @@
 		<State>AR</State>
 		<Zip>71901</Zip>
 	</Address>
-	<Rating>4.6</Rating>
 </NationalPark>
-<NationalPark rating = "4.6">
+<NationalPark Rating = "4.6">
 	<!--Everglades National Park-->
 	<Name>Everglades National Park</Name>
 	<PhoneNumbers>305-242-7700</PhoneNumbers>
@@ -81,7 +80,7 @@
 		<Zip>98362</Zip>
 	</Address>
 </NationalPark>
-<NationalPark rating = "4.7">
+<NationalPark Rating = "4.7">
 	<!--Petrified Forest National Park-->
 	<!-- ERROR 5 two names are provided-->
 	<Name>Petrified Forest National Park</Name>
@@ -93,7 +92,6 @@
 		<City>Concho</City>
 		<State>AZ</State>
 		<Zip>86028</Zip>
-		<NearestAirport>Holbrook</NearestAirport>
 	</Address>
 </NationalPark>
 <NationalPark>
@@ -122,7 +120,7 @@
 		<Zip>85730</Zip>
 	</Address>
 </NationalPark>
-<NationalPark rating = "4.8">
+<NationalPark Rating = "4.8">
 	<!--Yellowstone National Park-->
 	<Name>Yellowstone National Park</Name>
 	<PhoneNumbers>307-344-7381</PhoneNumbers>
@@ -138,7 +136,7 @@
 		<Zip>82190</Zip>
 	</Address>
 </NationalPark>
-<NationalPark rating = "4.8">
+<NationalPark Rating = "4.8">
 	<!--Zion National Park-->
 	<Name>Zion National Park</Name>
 	<PhoneNumbers>435-772-3256</PhoneNumbers>
