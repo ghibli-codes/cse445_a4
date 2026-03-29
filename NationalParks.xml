@@ -4,7 +4,7 @@
 <NationalParks xmlns="https://ghibli-codes.github.io/cse445_a4/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://ghibli-codes.github.io/cse445_a4/ NationalParks.xsd">
 	<!-- the national parks will have 11 children of type national park-->
 	<!--each national park has the optional attribute of rating, source on how to format attributes in xml https://www.w3schools.com/xml/xml_attributes.asp-->
-	<NationalPark rating = "4.9">
+	<NationalPark Rating = "4.9">
 		<!--the child elements will contain name, phone, and address-->
 		<Name>Grand Canyon</Name>
 		<!-- Phone is allowed multiple elements-->
@@ -20,7 +20,7 @@
 			<Zip>86023</Zip>
 		</Address>
 		</NationalPark>
-	<NationalPark rating = "4.9">
+	<NationalPark Rating = "4.9">
 		<!--Crater Lake National Park-->
 		<Name>Crater Lake National Park</Name>
 		<Phone>541-594-3000</Phone>
@@ -32,7 +32,7 @@
 			<Zip>97604</Zip>
 		</Address>
 	</NationalPark>
-	<NationalPark rating = "4.8">
+	<NationalPark Rating = "4.8">
 		<!--Glacier National Park-->
 		<Name>Glacier National Park</Name>
 		<Phone>406-888-7800</Phone>
@@ -44,7 +44,7 @@
 			<Zip>59936</Zip>
 		</Address>
 	</NationalPark>
-	<NationalPark rating = "4.6">
+	<NationalPark Rating = "4.6">
 		<!--Hot Springs National Park-->
 		<Name>Hot Springs National Park</Name>
 		<Phone>501-620-6715</Phone>
@@ -57,7 +57,7 @@
 		</Address>
 		<Rating>4.6</Rating>
 	</NationalPark>
-	<NationalPark rating = "4.6">
+	<NationalPark Rating = "4.6">
 		<!--Everglades National Park-->
 		<Name>Everglades National Park</Name>
 		<Phone>305-242-7700</Phone>
@@ -82,7 +82,7 @@
 			<Zip>98362</Zip>
 		</Address>
 	</NationalPark>
-	<NationalPark rating = "4.7">
+	<NationalPark Rating = "4.7">
 		<!--Petrified Forest National Park-->
 		<Name>Petrified Forest National Park</Name>
 		<Phone>928-524-6822</Phone>
@@ -121,7 +121,7 @@
 			<Zip>85730</Zip>
 		</Address>
 	</NationalPark>
-	<NationalPark rating = "4.8">
+	<NationalPark Rating = "4.8">
 		<!--Yellowstone National Park-->
 		<Name>Yellowstone National Park</Name>
 		<Phone>307-344-7381</Phone>
@@ -137,7 +137,7 @@
 			<Zip>82190</Zip>
 		</Address>
 	</NationalPark>
-	<NationalPark rating = "4.8">
+	<NationalPark Rating = "4.8">
 		<!--Zion National Park-->
 		<Name>Zion National Park</Name>
 		<Phone>435-772-3256</Phone>
